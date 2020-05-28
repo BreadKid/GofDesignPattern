@@ -1,22 +1,22 @@
-package com.breadykid.design_pattern.strategyPattern.strategy;
+package com.breadykid.design_pattern.strategyPattern;
 
 import org.springframework.stereotype.Service;
 
 /**
- * @description: 策略实现类C
+ * @description: 策略实现类B
  * @author: Joyce Liu
  * @create: 2020-05-28 14:40
  */
 @Service
-public class RuleCStrategy implements CommonStrategy {
+public class RuleBStrategy implements CommonStrategy {
 
     @Override
     public String getStrategyName() {
-        return "ruleC";
+        return "ruleB";
     }
 
     @Override
     public void executeStrategy(String param) {
-        System.out.println("执行规则C逻辑:"+param);
+        System.out.println("执行规则B逻辑:"+param);
     }
 }

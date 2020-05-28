@@ -1,4 +1,4 @@
-package com.breadykid.design_pattern.strategyPattern.strategy;
+package com.breadykid.design_pattern.strategyPattern;
 
 public interface CommonStrategy {
     public String getStrategyName();

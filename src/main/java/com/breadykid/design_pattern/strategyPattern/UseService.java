@@ -1,6 +1,5 @@
-package com.breadykid.design_pattern.strategyPattern.strategy;
+package com.breadykid.design_pattern.strategyPattern;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;

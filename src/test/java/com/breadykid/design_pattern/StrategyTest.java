@@ -1,6 +1,6 @@
 package com.breadykid.design_pattern;
 
-import com.breadykid.design_pattern.strategyPattern.strategy.UseService;
+import com.breadykid.design_pattern.strategyPattern.UseService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
