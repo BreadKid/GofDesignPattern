@@ -11,7 +11,7 @@ import java.util.Map;
  * @author: Joyce Liu
  * @create: 2020-05-28 15:58
  */
-@Service
+@Service("strategyService")
 public class UseService {
 
     Map<String,CommonStrategy> strategyMap = new HashMap<>();
