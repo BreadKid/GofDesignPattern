@@ -33,7 +33,7 @@ public class UseService {
             strategyMap.get(name).executeStrategy(param);
         }
         else {
-            System.out.println("异常数据时，排除报错可能:"+name+param);
+            System.err.println("异常数据时，排除报错可能:"+name+param);
         }
     }
 
