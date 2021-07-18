@@ -4,6 +4,10 @@ import com.breadykid.design_pattern.strategyPattern.UseService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+
 /**
  * @description: 策略模式单测
  * @author: Joyce Liu
@@ -26,5 +30,6 @@ public class StrategyTest extends DesignPatternApplicationTests {
         String name = "ruleA";
         String param = "test";
         useService.use(name, param);
+
     }
 }
